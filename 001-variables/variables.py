@@ -21,7 +21,7 @@ print(type(attractive))
 
 # Multiple Assignments - One line of code variables declaration
 
-## -- Normal Way
+# -- Normal Way
 # name = "Saif"
 # age = 21
 # is_human = True
@@ -31,3 +31,8 @@ print(type(attractive))
 name, age, is_human = "Saif", 21, True
 
 print(name, age, is_human)
+
+
+# IF all was the same value
+one = two = three = four = 10
+print(one, two, three, four)
