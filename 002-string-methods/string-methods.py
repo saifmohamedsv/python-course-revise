@@ -1,5 +1,5 @@
 # Some methods that are built-in the <class str />.
-String = "Saif 1Mohamed"
+String = "Saif Mohamed"
 
 # len() method - to calculate the length of a string (how many chars).
 print(len(String))  # output: 12, counts the white space.
@@ -37,3 +37,16 @@ print(String.isalpha())
 # output: False
 print("saif".isalpha())
 # output: True
+
+
+# count() counts how many times specific letter has been repeated...
+print(String.count("S"))
+# output: 1
+
+# replace() replace letter by another
+print(String.replace("S", "A"))
+# output: Aaif Mohamed
+
+# * - repeates a string 'n' times
+print(String * 2)
+# output: Saif MohamedSaif Mohamed
