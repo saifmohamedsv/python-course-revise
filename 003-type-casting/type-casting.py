@@ -9,7 +9,6 @@ print(x)  # 1
 print(int(y))
 # y was 2.0 as a float, not we used the method int() to cast it into just 2, as a whoel integer
 
-
 z = int(z)  # converting "3" into integer 3
 
 x = float(x)  # coverting 1 integer to 1.0 float
