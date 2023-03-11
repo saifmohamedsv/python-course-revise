@@ -4,7 +4,7 @@
 name = input("What is your name: ")
 
 print(name)
-
+ 
 
 # What if I want to take numbers ?! 🤔 input always takes strings by default
 # So, We'll use type casting, we talked about it earlier
