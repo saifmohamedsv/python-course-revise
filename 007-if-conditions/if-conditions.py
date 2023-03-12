@@ -11,4 +11,3 @@ elif age == 15:  # if the first condition is not true will check this one after.
 
 else:  # This will be checked at the end, after all the `elif` statements
     print("You still a kid!")
- 
